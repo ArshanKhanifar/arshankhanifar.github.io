@@ -1,0 +1,151 @@
+.project{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid red;
+}
+.project h1,
+.project h2,
+.project h3,
+.project h4,
+.project h5,
+.project h6{
+	color:#E52A3A;;
+}
+
+
+
+.clearfix::after{
+	content: ' ';
+	display: block;
+	clear: both;
+}
+.projTitle{
+	height: 60px;
+	padding: 10px;
+	text-align: center;
+	display:block;
+	border-radius: 5px;
+	font-size: 30px;
+	margin-bottom: 30px;
+	transition: all 0.4s;
+	opacity: 0;
+	transform: translate(-100px,0px);
+}
+.projTitle.active{
+	opacity: 1;
+	transform:translate(0px,0px);
+}
+/*.projTitle h2{
+	font-family: droid serif, sans-serif;
+}*/
+.projImage{
+	width: 55%;
+	display: inline-block;
+	float: left;
+	clear: left;
+	transition: all 0.4s;
+	opacity: 0;
+	transform: translate(-100px,0px);
+}
+.projImage.active{
+	opacity: 1;
+	transform:translate(0px,0px);
+}
+.projImage img{
+	width: 100%;
+}
+.technologies{
+	float: left;
+	margin-left: 85px;
+}
+.technologies h3{
+	opacity: 0;
+	transform: translate(100px,0px);
+}
+.technologies li{
+	list-style: none;
+	margin-bottom: 10px;
+	transition: all 0.4s;
+	opacity: 0;
+	transform: translate(100px,0px);
+}
+.technologies.active h3{
+	opacity: 1;
+	transform:translate(0px,0px);
+}
+.technologies.active li{
+	opacity: 1;
+	transform:translate(0px,0px);
+}
+.technologies li span{
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.technologies img{
+	height: 40px;
+	float: left;
+}
+.description{
+	margin-top: 40px;
+	margin-left: 15%;
+	text-align: justify;
+	float: left;
+	width: 70%;
+	line-height: 1.5;
+	opacity: 0;
+	transition: all 0.4s;
+	transform: translate(100px,0px);
+}
+.description.active{
+	opacity: 1;
+	transform:translate(0px,0px);
+}
+.linkToProject{
+	display:inline-block;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border:1px #E52A3A solid;
+	border-radius: 7px;
+	transition: all 0.4s;
+	margin-left: calc(50% - 100px);
+	margin-top: 20px;
+
+}
+.linkToProject:hover{
+	background: #E52A3A;
+}
+.linkToProject:hover a{
+	color:white;
+}
+.linkToProject a{
+	transition: all 0.4s;
+	color:#E52A3A;
+	display: inline-block;
+}
+
+@media (max-width: 850px) {
+	.project{
+		margin-left: 0%;
+		width: 90%;
+	}
+	.projImage{
+		width: 80%;
+		margin-left: 10%;
+	}
+	.technologies{
+		clear: left;
+		margin-top: 50px;
+	}
+	.description{
+		float:right;
+		width: 50%;
+		margin:0;
+		margin-top:50px;
+	}
+}

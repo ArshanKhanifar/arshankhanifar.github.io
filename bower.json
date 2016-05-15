@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "description": "this is my first personal website",
+  "main": "index.js",
+  "authors": [
+    "Arshan Khanifar"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "portfolio"
+  ],
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.2.3"
+  }
+}
