@@ -109,7 +109,6 @@ p{
 .intro.fill path{
 	fill:#000000;
 }
-
 .intro path.st0{
 	stroke: #B3B3B3;
 }
@@ -132,6 +131,16 @@ p{
 .changing-text{
 	margin-left: 80%;
 	margin-top: 15px;
+}
+@media (max-width: 800px) {
+	.changing-text{
+		margin-left: 5%;
+	}
+	.intro{
+		margin-left: 2.5%;
+		width: 95%;
+		margin-top: 15px;
+	}
 }
 
 

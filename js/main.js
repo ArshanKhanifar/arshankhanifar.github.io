@@ -7,7 +7,7 @@ $(document).ready(function(){
 		$('.intro').addClass('fill');
 	},1500);
 	setTimeout(function(){
-		changingText('.changing-text',['Developer',"Designer",'Engineering Student','Unicorn'],30);	
+		changingText('.changing-text',['Developer',"Designer",'Engineering Student'],30);	
 	},2500);
 })
 
