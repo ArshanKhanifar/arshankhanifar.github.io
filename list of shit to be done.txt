@@ -1,3 +1,0 @@
-list of shit to be done:
-1.make projects page responsive
-2.add who am I page
