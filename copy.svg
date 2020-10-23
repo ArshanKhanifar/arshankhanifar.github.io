@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="12px" viewBox="0 0 12 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>copy_icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1145" height="690" rx="23"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---5" transform="translate(-695.000000, -822.000000)">
+            <g id="Rectangle" transform="translate(135.000000, 173.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Mask" fill="#EFEFEF" xlink:href="#path-1"></use>
+                <rect id="Rectangle-Copy-3" fill="#DFDFDF" mask="url(#mask-2)" x="-67" y="620" width="1234" height="122"></rect>
+            </g>
+            <g id="Share" transform="translate(163.000000, 815.000000)">
+                <g id="Group-7" fill="#5D5D5D">
+                    <rect id="Mask" x="484" y="0" width="67" height="27" rx="3"></rect>
+                </g>
+                <g id="Group-3" transform="translate(494.000000, 1.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                    <g id="copy_icon" transform="translate(38.000000, 6.000000)">
+                        <path d="M10.0434783,12 L3.95652174,12 C2.87596462,12 2,11.1240354 2,10.0434783 L2,3.95652174 C2,2.87596462 2.87596462,2 3.95652174,2 L10.0434783,2 C11.1240354,2 12,2.87596462 12,3.95652174 L12,10.0434783 C12,11.1240354 11.1240354,12 10.0434783,12 Z" id="Path"></path>
+                        <path d="M3.51764318,1.31911619 L10,1.31911619 C9.71967324,0.529189588 8.97274202,0.00101193871 8.13454985,0 L1.97867429,0 C0.885882654,0 0,0.885882654 0,1.97867429 L0,8.13454985 C0.00101193871,8.97274202 0.529189588,9.71967324 1.31911619,10 L1.31911619,3.51764318 C1.31911619,2.30343025 2.30343025,1.31911619 3.51764318,1.31911619 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
